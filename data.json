@@ -1,0 +1,32 @@
+{
+  "accounting": [
+    {
+      "employeeID": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "age": 23
+    },
+
+    {
+      "employeeID": 2,
+      "firstName": "Mary",
+      "lastName": "Smith",
+      "age": 32
+    }
+  ],
+  "sales": [
+    {
+      "employeeID": 3,
+      "firstName": "Sally",
+      "lastName": "Green",
+      "age": 27
+    },
+
+    {
+      "employeeID": 4,
+      "firstName": "Jim",
+      "lastName": "Galley",
+      "age": 41
+    }
+  ]
+}
