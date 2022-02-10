@@ -1,6 +1,6 @@
 # camelCasing to snake_casing
 
-Small example to convert some json properties written in camelCase to snake_case.
+Small example to convert some json properties written in camelCase to snake_case, and then transform some properties.
 Check the [npm package](https://www.npmjs.com/package/snakecase-keys) for more info.
 
 # Instructions
@@ -45,6 +45,39 @@ npm run start
       age: 27
     },
     { employee_id: 4, first_name: 'Jim', last_name: 'Galley', age: 41 }
+  ]
+}
+
+
+~~~~~~~~~~~~Spanish keys:~~~~~~~~~~~~
+{
+  accounting: [
+    {
+      employee_id: 1,
+      primer_nombre: 'John',
+      segundo_nombre: 'Doe',
+      edad: 23
+    },
+    {
+      employee_id: 2,
+      primer_nombre: 'Mary',
+      segundo_nombre: 'Smith',
+      edad: 32
+    }
+  ],
+  sales: [
+    {
+      employee_id: 3,
+      primer_nombre: 'Sally',
+      segundo_nombre: 'Green',
+      edad: 27
+    },
+    {
+      employee_id: 4,
+      primer_nombre: 'Jim',
+      segundo_nombre: 'Galley',
+      edad: 41
+    }
   ]
 }
 ```
