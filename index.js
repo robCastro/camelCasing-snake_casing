@@ -1,8 +1,10 @@
-const fs = require('fs');
-const snakecaseKeys = require('snakecase-keys')
-// import mapObject, {mapObjectSkip} from 'map-obj';
+// const fs = require('fs');
+// const snakecaseKeys = require('snakecase-keys')
+// const mapObject = require('map-obj')
 
-const mapObject = require('map-obj')
+import mapObject from 'map-obj';
+import * as fs from 'fs';
+import snakecaseKeys from 'snakecase-keys'
 
 
 const rawdata = fs.readFileSync('data.json');
@@ -12,7 +14,6 @@ console.log(data);
 
 
 const snakeData = snakecaseKeys(data);
-// console.log('\n\n');
 console.log('~~~~~~~~~~~~Snake data:~~~~~~~~~~~~');
 console.log(snakeData);
 

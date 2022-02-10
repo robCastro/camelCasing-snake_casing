@@ -11,5 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "snakecase-keys": "^5.1.2"
-  }
+  },
+  "type": "module"
 }
